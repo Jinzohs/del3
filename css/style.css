@@ -1,0 +1,62 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #212529;
+}
+
+#site-main {
+	
+}
+
+.calendar-door {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	text-align: center;
+	line-height: 100px;
+	float: left;
+	margin: 10px;
+	background-color: white;
+	background-size: contain;
+}
+
+.door-number {
+	margin: 0;
+}
+
+#calendar-container {
+	width: 600px;
+	margin: 50px auto;
+}
+
+#calendar-header {
+	width: 600px;
+	margin: 50px auto;
+	background-color: white;
+	color: orange;
+	text-align: center;
+	padding: 5px;
+}
+#calendar-body {
+	width: 600px;
+	background-color: #DC7D1D;
+	overflow: auto;
+}
+.popup {
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            border: 2px solid black;
+            padding: 20px;
+            z-index: 1000;
+            text-align: center;
+        }
+
+        .popup img {
+            max-width: 300px;
+        }
